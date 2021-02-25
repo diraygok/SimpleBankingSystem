@@ -83,20 +83,6 @@ class Banking:
             else:
                 return False
 
-        # for row in cur.execute(f'SELECT number FROM card WHERE number = {card} AND pin = {pin};'):
-        #     number = row
-        #     break
-        # else:
-        #     return False
-        #
-        # if number:
-        #     return True
-
-        # if card in self.accounts.keys():
-        #     return True if pin == self.accounts[card][0] else False
-        # else:
-        #     return False
-
     def balance(self, card):
         for row in cur.execute(f'SELECT balance FROM card WHERE number = {card};'):
             balance = row
