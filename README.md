@@ -10,7 +10,7 @@ Making simple banking processes with user commands.
 `luhn` algoritm
 
 ## What the project can do?
-- Creating account with unique credit card and PIN (starting with 400000)
+- Creating account with 16-number unique credit card and 4-number PIN (starts with 400000 and provides Luhn algorithm)
 - Login an acoount if credit card and PIN are true
     - Checking balance
     - Adding income
